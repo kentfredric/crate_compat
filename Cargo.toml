@@ -1,0 +1,14 @@
+[package]
+name = "crate_compat"
+version = "0.1.0"
+authors = ["Kent Fredric <kentnl@gentoo.org>"]
+edition = "2018"
+
+[dependencies.semver]
+version = "^0.9"
+
+[dependencies.url]
+version = "^2"
+
+[dev-dependencies.lazy_static]
+version = "^1"
